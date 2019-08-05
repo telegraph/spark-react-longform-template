@@ -1,0 +1,56 @@
+.pagebody {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  padding: 25px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+
+  .trigger {
+    p {
+      margin-bottom: 15px!important;
+    }
+  }
+}
+.ebox {
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+.moi {
+  padding-bottom: 0;
+}
+
+@media (max-width: 970px) {
+  .pagebody {
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width: 730px) {
+
+  .pagebody {
+    padding: 12% 20px;
+    margin: 0 auto;
+
+    &.purple {
+      h2 {
+        font-size: 23px;
+        line-height: 20px;
+      }
+      .stars {
+        max-width: 190px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}
+
+.pagebody__content--notitle {
+  margin: auto;
+}

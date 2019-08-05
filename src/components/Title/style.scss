@@ -1,0 +1,31 @@
+.title {
+  transition: 0.7s;
+  transform: translate3d(-40%, 0, 0);
+  flex-basis: 37%;
+  margin: 20px 0;
+  padding: 0;
+
+  
+  h2 {
+    margin: 0 auto;
+    text-align: left;
+    font-size: 47px;
+    line-height: 50px;
+    font-family: 'RN House Sans', arial, sans-serif;
+    font-weight: bold;
+    color: #00B6BE;
+
+    &::selection {
+      background: #42145F;
+      color: white;
+    }
+  }
+
+  img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+
+}
